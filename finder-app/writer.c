@@ -14,7 +14,8 @@ int main(int argc, char *argv[]) {
 	int fd, len, err;
 
 		if (argc != 3) {
-			syslog(LOG_ERR, "%s", "Usage: ./writer writefile writestr\n");
+			printf("Usage: ./writer writefile writestr\n");
+			syslog(LOG_ERR, "%s", "Invalid arguments\n");
 			exit(1);
 		}
 
