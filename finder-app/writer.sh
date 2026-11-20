@@ -40,4 +40,4 @@ then
 	echo "return value of echo $?"
 	exit 1
 fi
-#echo ${writefile}
+
